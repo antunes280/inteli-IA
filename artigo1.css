@@ -1,0 +1,47 @@
+
+
+
+@keyframes neon-glow {
+    0%, 100% {
+        text-shadow: 0 0 5px #0aceff, 0 0 20px #eeff00, 0 0 35px #cc00ff;
+    }
+    50% {
+        text-shadow: none;
+    }
+}
+
+header {
+    text-align: center;
+    
+    padding: 20px;
+}
+
+.neon-title {
+    font-size: 48px;
+    color: #fff;
+    animation: neon-glow 1s linear infinite;
+}
+
+
+
+.neon-text {
+    font-size: 24px;
+    color: #fff;
+    animation: neon-glow 6s linear infinite;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+}
+
+body {
+    background-color: #000;
+}
+
+
+
+
+
+
